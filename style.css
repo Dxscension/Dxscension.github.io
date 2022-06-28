@@ -1,0 +1,215 @@
+body{
+    margin: 0;
+    padding: 0;
+    animation: transitionIn 0.75s;
+    background-color: #24252A;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #131317
+}
+::-webkit-scrollbar-thumb{
+    background: #3a3a52
+}
+::-webkit-scrollbar:hover{
+    background: rgb(88, 88, 88);
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.hero{
+    height: 15vh;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+span{
+    color: #db3e70;
+}
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    font-family:sans-serif;
+    cursor: pointer;
+}
+.upper{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.box4{
+    width: 300px;
+    animation: transitionIn;
+    background: #16161c;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    border-radius: 2%;
+    font-family: 'Century Gothic', sans-serif;
+}
+.box3{
+    width: 300px;
+    animation: transitionIn;
+    background: #16161c;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    border-radius: 2%;
+    font-family: 'Century Gothic', sans-serif;
+}
+nav ul li{
+    list-style-type: none;
+    align-items: center;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+button{
+    background-color:#db3e70;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+
+button:hover{
+    background-color: transparent;
+    border: 2px solid #db3e70;
+	cursor: pointer;
+}
+nav ul li a:hover{
+    color: #db3e70;
+    transition: all ease-out .4s;
+}
+
+nav ul li a:after{
+    color: white;
+    transition: ease-out .4s;
+}
+
+nav ul li a:out-of-range{
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    transition: .4s;
+}
+.box-img{
+    animation: transitionIn;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.services{
+    background: #24252A;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    font-family: sans-serif;
+    margin: 30px auto;
+    text-align: center;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 300px;
+    width: 280px;
+    padding: 20px 35px;
+    background: #15161c;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: white;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.4s ease;
+}
+
+.reveal.active{
+    position: relative;
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 1.4s ease;
+}
+
+.pra{
+    color: rgb(167, 167, 167);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 15px;
+}
+
+.TITLE{
+    color: white;
+    font-family: sans-serif;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.card .button{
+    background-color:#db3e70;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 9px 22px;
+    margin: 25px 0px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid #db3e70;
+	cursor: pointer;
+}
+
